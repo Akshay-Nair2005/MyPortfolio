@@ -4,6 +4,8 @@ import { OrbitControls as OrbitalControls } from "@react-three/drei";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function RotatingCube() {
   const meshRef = useRef();
@@ -42,6 +44,8 @@ function App() {
       <Navbar />
       <Hero />
       <AboutUs />
+      <Contact />
+      <Footer />
     </div>
   );
 }
