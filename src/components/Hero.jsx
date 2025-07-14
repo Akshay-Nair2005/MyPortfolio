@@ -60,7 +60,7 @@ const Hero = () => {
   // };
 
   return (
-    <section className="min-h-screen w-full flex flex-col relative">
+    <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-28 mt-28 c-space gap-3">
         <p className="sm:text-3xl text-2xl font-semibold text-white sm:font-medium  text-center font-poppins">
           Hii, I am Akshay Nair <span className="waving-hand">👋</span>

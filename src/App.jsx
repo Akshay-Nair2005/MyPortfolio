@@ -3,6 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls as OrbitalControls } from "@react-three/drei";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import AboutUs from "./components/AboutUs";
 
 function RotatingCube() {
   const meshRef = useRef();
@@ -40,6 +41,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <AboutUs />
     </div>
   );
 }
