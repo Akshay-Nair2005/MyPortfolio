@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 function RotatingCube() {
   const meshRef = useRef();
@@ -44,6 +45,7 @@ function App() {
       <Navbar />
       <Hero />
       <AboutUs />
+      <Projects />
       <Contact />
       <Footer />
     </div>
