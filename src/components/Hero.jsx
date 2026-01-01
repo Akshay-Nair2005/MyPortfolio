@@ -84,10 +84,10 @@ const Hero = () => {
               />
             </HeroCamera>
             <group>
-              <Target position={sizes.targetPosition} />
+              {/* <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
               <FlutterLogo position={sizes.flutterLogoPosition} />
-              <BookLogo position={sizes.HtmlLogoPosition} />
+              <BookLogo position={sizes.HtmlLogoPosition} /> */}
             </group>
             <ambientLight intensity={1} />
             <directionalLight
