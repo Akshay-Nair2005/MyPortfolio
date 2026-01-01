@@ -102,7 +102,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="xl:col-span-2 xl:row-span-3">
+        <div className="xl:col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
               src="assets/grid3.png"
@@ -119,6 +119,26 @@ const AboutUs = () => {
                 efficient, and visually appealing. Coding isn&apos;t just my
                 profession—it&apos;s my passion. I enjoy exploring new
                 technologies, and enhancing my skills.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="xl:col-span-1 xl:row-span-3">
+          <div className="grid-container">
+            <img
+              src="assets/ocufox.png"
+              alt="grid-3"
+              className="w-full sm:h-[246px] h-fit object-contain"
+            />
+
+            <div>
+              <p className="grid-headtext">Ocufox Technologies Pvt Ltd</p>
+              <p className="grid-subtext">
+                Collaborating with senior developers for over and year to work
+                on cutting edge projects, ensuring the projects usability,
+                scalability,maintainability,working as a full Stack developer,
+                integrating frontend andbackend solutions and contributions to
+                projects.
               </p>
             </div>
           </div>
